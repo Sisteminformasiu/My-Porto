@@ -4,7 +4,7 @@ import Blob from "../../ui/Blob";
 import { Download } from "lucide-react";
 import Brand from "@/components/features/brand/Brand";
 import Image from "next/image";
-import AboutImage from "@/public/aboutme.jpg";
+import AboutImage from "@/public/beranda.png";
 type Props = {};
 
 export default function MainSection({}: Props) {
@@ -37,7 +37,7 @@ export default function MainSection({}: Props) {
             </a>
           </Button>
           </div>
-          <div className="relative aspect-square w-full max-w-xs overflow-hidden rounded-2xl object-contain lg:max-w-sms">
+          <div className="relative aspect-square w-full max-w-xs overflow-hidden rounded-3xl object-cover lg:max-w-sms">
             <Image
               src={AboutImage}
               alt="My Image"
