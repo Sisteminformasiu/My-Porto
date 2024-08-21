@@ -12,7 +12,7 @@ export default function MainSection({}: Props) {
     <section className="relative w-full">
       <article className="relative z-10 flex w-full flex-col items-center justify-between gap-20 lg:flex-col">
         {/* Hero Title */}
-        <div className="w-full grid grid-cols-2 ">
+        <div className="w-full grid grid-cols-1 gap-y-5 sm:grid-cols-2 ">
           <div>
 
           <h1 className="text-[45px] font-bold leading-none text-slate-700 drop-shadow-[0_0_15px_rgba(200,218,189,0.5)] dark:text-white dark:drop-shadow-[0_0_15px_rgba(255,255,255,0.5)] sm:text-[60px] md:text-[64px] lg:text-[80px]">
