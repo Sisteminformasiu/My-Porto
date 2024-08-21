@@ -59,12 +59,12 @@ export default function page({}: Props) {
               ))}
             </div>
           </article>
-          <div className="relative aspect-square w-full max-w-xs overflow-hidden rounded-2xl object-contain lg:max-w-sms">
+          <div className="relative aspect-square w-full max-w-xs overflow-hidden rounded-full object-contain lg:max-w-sms">
             <Image
               src={AboutImage}
               alt="My Image"
               fill
-              style={{objectFit: "cover"}}
+              style={{objectFit: "contain"}}
               placeholder="blur"
               priority
             />

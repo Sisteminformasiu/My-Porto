@@ -109,7 +109,7 @@ export const aboutLinks: {
 export const projects: ProjectType[] = [
   {
     title: "My Portfolio",
-    image: "projects/portfolio.png",
+    image: "projects/my-porto.jpg",
     tags: [
       "Next JS",
       "TypeScript",
@@ -117,8 +117,8 @@ export const projects: ProjectType[] = [
       "Shadcn UI",
       "Framer Motion",
     ],
-    gitHub: "https://github.com/Lviathannn/next-portfolio",
-    demo: "https://asrul.tech",
+    gitHub: "https://github.com/Sisteminformasiu/My-Porto",
+    demo: "https://my-porto-beta.vercel.app",
   },
   {
     title: "Village Tosale Profile Website",
@@ -150,20 +150,6 @@ export const projects: ProjectType[] = [
     ],
     gitHub: "https://github.com/Sisteminformasiu/Sisteminformasiu.github.io",
     demo: "https://zibook.netlify.app/",
-  },
-  {
-    title: "Hash Table Implementation",
-    image: "projects/hashtable.png",
-    tags: ["Next JS", "Tailwind CSS", "Typescript", "Shader UI"],
-    gitHub: "https://github.com/Lviathannn/hashtable-implementation",
-    demo: "https://hashtable-implementation.vercel.app/",
-  },
-  {
-    title: "Pokedex",
-    image: "projects/pokedex.png",
-    tags: ["HTML", "Tailwind CSS", "Javascript", "Pokemon API"],
-    gitHub: "https://github.com/Lviathannn/pokedex",
-    demo: "https://lviathannn.github.io/pokedex/",
   },
 ];
 
