@@ -14,9 +14,11 @@ export default function page({}: Props) {
           tagStyle="text-accent_primary font-bold"
         />
         <SkillsTabs />
-        <Blob className={`-left-20 -top-10 h-72 w-72 dark:bg-[red] blur-[90px] bg-accent_secondary lg:-left-44 lg:h-96 lg:w-96 lg:blur-[120px]`} />
-      <Blob className="-right-20 top-44 h-64 w-64 dark:bg-accent_secondary blur-[90px] bg-[red] lg:-right-60 lg:bottom-40 lg:h-96 lg:w-96 lg:blur-[120px]" />
+        <Blob
+          className={`-left-20 -top-10 h-72 w-72 bg-accent_secondary blur-[90px] dark:bg-[red] lg:-left-44 lg:h-96 lg:w-96 lg:blur-[120px]`}
+        />
+        <Blob className="-right-0 top-44 h-64 w-64 bg-[red] blur-[90px] dark:bg-accent_secondary lg:-right-60 lg:bottom-40 lg:h-96 lg:w-96 lg:blur-[120px]" />
       </section>
     </main>
   );
-};
+}
