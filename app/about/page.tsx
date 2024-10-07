@@ -30,7 +30,7 @@ export default function page({}: Props) {
             </p>
 
             <div className="mt-5 flex items-end gap-3">
-              <Button className="hover:!bg-accent_hover mt-5 flex items-center gap-2 !bg-accent_primary !text-dark shadow-2xl">
+              <Button className="mt-5 flex items-center gap-2 !bg-accent_primary !text-dark shadow-2xl hover:!bg-accent_hover">
                 <a
                   href="/MYCV.pdf"
                   download="MYCV.pdf"
@@ -59,20 +59,22 @@ export default function page({}: Props) {
               ))}
             </div>
           </article>
-          <div className="relative aspect-square w-full max-w-xs overflow-hidden rounded-full object-contain lg:max-w-sms">
+          <div className="lg:max-w-sms relative aspect-square w-full max-w-xs overflow-hidden rounded-full object-contain">
             <Image
               src={AboutImage}
               alt="My Image"
               fill
-              style={{objectFit: "contain"}}
+              style={{ objectFit: "contain" }}
               placeholder="blur"
               priority
             />
           </div>
         </div>
-        <Blob className={`-left-20 -top-10 h-72 w-72 dark:bg-[red] blur-[90px] bg-accent_secondary lg:-left-44 lg:h-96 lg:w-96 lg:blur-[120px]`} />
-      <Blob className="-right-20 top-44 h-64 w-64 dark:bg-accent_secondary blur-[90px] bg-[red] lg:-right-60 lg:bottom-40 lg:h-96 lg:w-96 lg:blur-[120px]" />
+        <Blob
+          className={`-left-20 -top-10 h-72 w-72 bg-accent_secondary blur-[90px] dark:bg-[red] lg:-left-44 lg:h-96 lg:w-96 lg:blur-[120px]`}
+        />
+        <Blob className="-right-0 top-44 h-64 w-64 bg-[red] blur-[90px] dark:bg-accent_secondary lg:-right-60 lg:bottom-40 lg:h-96 lg:w-96 lg:blur-[120px]" />
       </section>
     </main>
   );
-};
+}

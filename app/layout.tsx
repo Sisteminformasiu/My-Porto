@@ -21,14 +21,14 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s / Asrul",
+    template: "%s / Afizan",
     default: "Afizan",
   },
   description:
     "Frontend developer with a primary focus on React.js, Next.js, Tailwind CSS, and Framer Motion technologies. I am an individual who is diligent and passionate about the learning process, with the ultimate goal of realizing my aspirations as a professional frontend developer.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_BASE_URL || "",
-    "https://asrul.tech/",
+    "https://www.fizi.my.id/",
   ),
   creator: "Mohammad Afizan",
   publisher: "Mohammad Afizan",
